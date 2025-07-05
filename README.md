@@ -1,2 +1,2 @@
 # catalog-produit
-![alt text](capture1.jpg) ![alt text](capture2.jpg)
+![alt text](products.png) ![alt text](home.jpeg)

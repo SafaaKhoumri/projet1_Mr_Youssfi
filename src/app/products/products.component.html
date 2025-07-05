@@ -1,6 +1,6 @@
 <div class="p-3">
     <div class="card-body">
-        <h3>Products Component </h3>
+        <h3>Products Component</h3>
     </div>
     <div>
         <table class="table">
@@ -15,11 +15,12 @@
             </tr>
             </thead>
             <tbody>
-                @for (p of products; track p) {
+                @for (p of products; track p.id) {
                     <tr>
                         <td>{{ p.id }}</td>
                         <td>{{ p.name }}</td>
                         <td>{{ p.price }}</td>
+                        <td>{{ p.quantity }}</td>
                         <td>
                             <input type="checkbox" [(ngModel)]="p.selected" />
                         </td>
